@@ -1,0 +1,12 @@
+#white-rect {
+    -fx-background-color: #eadabe;
+}
+#white-rect:hover, :armed, :focused, :selected {
+    -fx-background-color: #ceebbe;
+}
+#black-rect {
+    -fx-background-color: #997c69;
+}
+#black-rect:hover, :armed, :focused, :selected {
+    -fx-background-color: #7b996a;
+}

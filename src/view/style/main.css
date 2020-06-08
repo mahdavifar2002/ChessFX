@@ -1,0 +1,55 @@
+.button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 7 0;
+    -fx-background-color:
+            #969696,
+            #c7c7c7;
+    -fx-background-radius: 0;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-pref-width: 200px;
+}
+.button:hover, .button:focused {
+    -fx-background-color:
+            #646464,
+            #c7c7c7;
+}
+
+.label {
+    -fx-font-size: 20px;
+}
+
+.text-field {
+    -fx-font-size: 20px;
+    -fx-background-color: -fx-text-box-border, -fx-background;
+    -fx-background-insets: 0, 0 0 4 0;
+    -fx-background-radius: 0;
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background;
+}
+
+.list-view {
+    -fx-font-size: 20px;
+    -fx-background-color: -fx-text-box-border, -fx-background;
+    -fx-background-radius: 0;
+}
+.list-cell {
+    -fx-font-size: 20px;
+    -fx-background-color: -fx-text-box-border, -fx-background;
+    -fx-background-radius: 0;
+}
+.list-cell:armed, :selected, :focused {
+    -fx-background-color: -fx-focus-color, -fx-background;
+}
+
+#h1 {
+    -fx-font-size: 50px;
+}
+
+.root{
+    -fx-background-image: url("//src/img/background/beautiful.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
